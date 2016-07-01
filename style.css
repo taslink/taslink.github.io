@@ -47,6 +47,10 @@ body {
     margin-bottom: 20px;
 }
 
+#profile-pic-caption{
+    margin-bottom: 20px;
+}
+
 #task_parts1 {
     text-align: center;
     padding: 20px 20px 0 20px;
@@ -66,8 +70,6 @@ body {
     text-align: center;
     padding: 10px 20px 15px 15px;
 } 
-
-
 
 #task_parts1 img{
     width: 100%;
