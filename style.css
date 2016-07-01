@@ -1,0 +1,150 @@
+body {
+    font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+    font-size: 15px;
+}
+
+#hometitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 300px;
+    height:200px;
+    line-height:50px;
+    text-align:center;
+}
+
+#home {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#about {
+    background-color: #eee;
+    padding: 40px 0;
+}
+
+#task {
+    padding: 40px 0;
+}
+
+#contact {
+    background-color: #eee;
+    padding: 40px 0;
+}
+
+#profile-pic {
+    text-align: center;
+    margin-bottom: 25px;
+} 
+
+#profile-pic img {
+    max-width: 150px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+#task_parts1 {
+    text-align: center;
+    padding: 20px 20px 0 20px;
+} 
+
+#task_parts2 {
+    text-align: center;
+    padding: 20px 20px 0 20px;
+} 
+
+#task_parts3 {
+    text-align: center;
+    padding: 10px 20px 15px 15px;
+} 
+
+#task_parts4 {
+    text-align: center;
+    padding: 10px 20px 15px 15px;
+} 
+
+
+
+#task_parts1 img{
+    width: 100%;
+    margin-bottom: 20px;
+} 
+
+#task_parts2 img{
+    width: 100%;
+    margin-bottom: 20px;
+} 
+
+#task_parts3 img{
+    width: 100%;
+    margin-bottom: 20px;
+}  
+
+#task_parts4 img{
+    width: 100%;
+    margin-bottom: 20px;
+}  
+
+.navbar {
+    border-radius: 0; 
+}
+
+.row {
+    margin-bottom: 50px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon .glyphicon {
+    margin-bottom: 20px;
+    font-size: 70px;
+    color: #777;
+}
+
+.content h2 {
+    margin-top: 0;
+    padding-bottom: 15px;
+}
+
+.content p {
+    margin-bottom: 30px;
+}
+
+.sent-button {
+    margin-top: 20px;
+}
+
+footer {
+    border-top: 1px solid#e7e7e7;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.copyright {
+    padding: 20px 0;
+    font-size: 12px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+   
+}
